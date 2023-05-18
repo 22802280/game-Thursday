@@ -108,4 +108,30 @@ body{
 
     .fortnite-img{margin: 0;}
     .hero-title{font-size: 38px;}
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-link:nth-child(2){
+        margin: 0;
+    }
 }
+
+.logo{
+    animation: rotation 8s infinite linear;
+}
+
+.logo:hover{
+    animation-play-state: paused;
+}
+
+@keyframes rotation{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+.footer-link:nth-child(2){
+    margin: 0 24px;
+}
+
